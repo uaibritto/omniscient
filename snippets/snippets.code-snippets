@@ -1,0 +1,8 @@
+{
+	"Debug Log": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "clg",
+		"body": "console.log($TM_SELECTED_TEXT)",
+		"description": "Console log"
+	}
+}
