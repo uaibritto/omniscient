@@ -4,12 +4,12 @@
 		"prefix": "bio",
 		"body": [
 			"{",
-			"    \"$schema\": \"https://biomejs.dev/schemas/2.3.4/schema.json\"",
+			"    \"$$schema\": \"https://biomejs.dev/schemas/2.3.${1:5}/schema.json\",",
 			"    \"vcs\": {",
 			"        \"enabled\": true,",
 			"        \"clientKind\": \"git\",",
 			"        \"useIgnoreFile\": true",
-			"    }",
+			"    },",
 			"    \"files\": {",
 			"        \"ignoreUnknown\": false",
 			"    },",
@@ -90,8 +90,21 @@
 			"            }",
 			"        }",
 			"    }",
-			"}",
+			"}"
 		],
 		"description": "Biome configuration"
+	},
+	"Scripts": {
+		"scope": "json",
+		"prefix": "scp",
+		"body": [
+			"\"scripts\": {",
+			"    \"dev\": \"bun --hot src/server.ts\",",
+			"    \"lint\": \"biome check --write\",",
+			"    \"db:generate\": \"bun --bun prisma generate\",",
+			"    \"db:migrate\": \"bun --bun prisma migrate dev\"",
+			"}"
+		],
+		"description": "Scripts"
 	}
 }

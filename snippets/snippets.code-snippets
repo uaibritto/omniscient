@@ -1,8 +1,16 @@
 {
-	"Debug Log": {
-		"scope": "javascript,typescript,javascriptreact,typescriptreact",
-		"prefix": "clg",
-		"body": "console.log($TM_SELECTED_TEXT)",
-		"description": "Console log"
-	}
+    "Debug Log": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "clg",
+        "body": "console.log($TM_SELECTED_TEXT)",
+        "description": "Console log",
+        "isFileTemplate": false
+    },
+    "Server Route": {
+        "scope": "javascript,typescript",
+        "prefix": "sr",
+        "body": [".${1:get}(\"${2:get}\", async ({ }) => {", "    $3", "})"],
+        "description": "Server Route",
+        "isFileTemplate": false
+    }
 }

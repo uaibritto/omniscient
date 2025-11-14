@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "dev": "bun --hot src/server.ts",
+        "lint": "biome check --write",
+        "db:generate": "bun --bun prisma generate",
+        "db:migrate": "bun --bun prisma migrate dev"
+    }
+}

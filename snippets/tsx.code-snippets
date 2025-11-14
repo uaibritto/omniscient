@@ -1,93 +1,107 @@
 {
-	"React Function Component": {
-		"scope": "typescriptreact",
-		"prefix": "rfc",
-		"body": [
-			"import { type JSX, ComponentProps } from \"react\"",
-			"",
-			"export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(props: ComponentProps<\"$1\">): JSX.Element {",
-			"    return (",
-			"        $2",
-			"    )",
-			"}"
-		],
-		"description": "React Components",
-		"isFileTemplate": true
-	},
-	"React Arrow Function Component": {
-		"scope": "typescriptreact",
-		"prefix": "raf",
-		"body": [
-			"import { type JSX, ComponentProps } from \"react\"",
-			"",
-			"export const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} = (props: ComponentProps<\"$1\">): JSX.Element => {",
-			"    return (",
-			"        $1",
-			"    )",
-			"}"
-		],
-		"description": "React Components",
-		"isFileTemplate": true
-	},
-	"Server Action Form": {
-		"scope": "typescriptreact",
-		"prefix": "saf",
-		"body": [
-			"import { type JSX, useActionState } from \"react\"",
-			"import { action } from \"~/actions\"",
-			"",
-			"export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(): JSX.Element {",
-			"    const [state, formAction, isPending] = useActionState(action, null)",
-			"",
-			"    return (",
-			"        <form action={action}>",
-			"            $1",
-			"            <button type=\"submit\" disabled={isPending}>",
-			"                {isPending ? \"Loading...\" : \"Submit\"}",
-			"            </button>",
-			"        </form>",
-			"    )",
-			"}"
-		],
-		"description": "React Form Action",
-		"isFileTemplate": true
-	},
-	"React Router Component": {
-		"scope": "typescriptreact",
-		"prefix": "rrc",
-		"body": [
-			"<BrowserRouter>",
-			"    <Routes>",
-			"        <Route path=\"/\" element={<h1>Layout</h1>}>",
-			"            <Route index element={<h1>Home</h1>} />",
-			"        </Route>",
-			"",
-			"        <Route path=\"*\" element={<h1>404</h1>} />",
-			"    </Routes>",
-			"</BrowserRouter>"
-		],
-		"description": "React Router",
-		"isFileTemplate": false
-	},
-	"Tanstack Query": {
-		"scope": "typescriptreact",
-		"prefix": "tq",
-		"body": [
-			"const [data, isLoading, error] = useQuery({",
-			"    queryKey: [\"$1\"],",
-			"    queryFn: async () => { $2 }",
-			"})"
-		],
-		"description": "Tanstack",
-		"isFileTemplate": false
-	},
-	"React ClassName Attribute": {
-		"scope": "typescriptreact",
-		"prefix": "class",
-		"body": [
-			"className=\"$1\""
-		],
-		"description": "React Attribute",
-		"isFileTemplate": false
-	}
+    "React Function Component": {
+        "scope": "typescriptreact",
+        "prefix": "rfc",
+        "body": [
+            "import type { ComponentProps, JSX } from \"react\"",
+            "",
+            "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(props: ComponentProps<\"$1\">): JSX.Element {",
+            "    return (",
+            "        $2",
+            "    )",
+            "}"
+        ],
+        "description": "React Components",
+        "isFileTemplate": true
+    },
+    "React Arrow Function Component": {
+        "scope": "typescriptreact",
+        "prefix": "raf",
+        "body": [
+            "import type { ComponentProps, JSX } from \"react\"",
+            "",
+            "export const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} = (props: ComponentProps<\"$1\">): JSX.Element => {",
+            "    return (",
+            "        $1",
+            "    )",
+            "}"
+        ],
+        "description": "React Components",
+        "isFileTemplate": true
+    },
+    "Server Action Form": {
+        "scope": "typescriptreact",
+        "prefix": "saf",
+        "body": [
+            "import { type JSX, useActionState } from \"react\"",
+            "import { action } from \"~/actions\"",
+            "",
+            "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(): JSX.Element {",
+            "    const [state, formAction, isPending] = useActionState(action, null)",
+            "",
+            "    return (",
+            "        <form action={action}>",
+            "            $1",
+            "            <button type=\"submit\" disabled={isPending}>",
+            "                {isPending ? \"Loading...\" : \"Submit\"}",
+            "            </button>",
+            "        </form>",
+            "    )",
+            "}"
+        ],
+        "description": "React Form Action",
+        "isFileTemplate": true
+    },
+    "React Router Component": {
+        "scope": "typescriptreact",
+        "prefix": "rrc",
+        "body": [
+            "import type { JSX } from \"react\"",
+            "import { BrowserRouter, Route, Routes } from \"react-router\"",
+            "",
+            "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(): JSX.Element {",
+            "    return (",
+            "        <BrowserRouter>",
+            "            <Routes>",
+            "                <Route path=\"/\" element={<h1>Layout</h1>}>",
+            "                    <Route index element={<h1>Home</h1>} />",
+            "                </Route>",
+            "",
+            "                <Route path=\"*\" element={<h1>404</h1>} />",
+            "            </Routes>",
+            "        </BrowserRouter>",
+            "    )",
+            "}"
+        ],
+        "description": "React Router",
+        "isFileTemplate": false
+    },
+    "Tanstack Query": {
+        "scope": "typescriptreact",
+        "prefix": "tq",
+        "body": [
+            "import type { JSX } from \"react\"",
+            "import { useQuery } from \"@tanstack/react-query\"",
+            "",
+            "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(): JSX.Element {",
+            "    const [data, isLoading, error] = useQuery({",
+            "        queryKey: [\"$1\"],",
+            "        queryFn: async () => { $2 }",
+            "    })",
+            "    ",
+            "    return (",
+            "        $3",
+            "    )",
+            "}"
+        ],
+        "description": "Tanstack",
+        "isFileTemplate": false
+    },
+    "React ClassName Attribute": {
+        "scope": "typescriptreact",
+        "prefix": "class",
+        "body": ["className=\"$1\""],
+        "description": "React Attribute",
+        "isFileTemplate": false
+    }
 }

@@ -5,18 +5,31 @@ All changes made to the project will be documented here.
 
 Initial release
 
-- Snippets
-- Key bindings
+- Snippets;
+- Key bindings.
 
 ## v`0.0.4` | `November 6, 2025`
 
 ### Added
 
-- CSS class utility for JSX/TSX
+- CSS class utility for JSX/TSX.
 
 ## v`0.0.5` | `November 6, 2025`
 
 ### Corrections
 
-- Fixed issue with JSX/TSX snippets
-- Fixed issue with shortcut keys
+- Fixed issue with JSX/TSX snippets;
+- Fixed issue with shortcut keys.
+
+## v`0.0.7` | `November 14, 2025`
+
+### Corrections
+
+- Problem fixed with excerpts from biome.json;
+- The Tanstack Query and React Router commands generate a complete component;
+- Corrections and improvements to the README.
+
+### Added
+
+- Server script snippet for Prisma, Biome, and Bun;
+- Utility for creating routes on the server.
