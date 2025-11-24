@@ -1,0 +1,13 @@
+{
+    "Function Form Actions": {
+        "scope": "typescript, typescriptreact",
+        "prefix": "ffa",
+        "body": [
+            "export async function ${1:${TM_FILENAME_BASE}}(request: FormData): Promise<void> {",
+            "    const $2 = request.get(\"$3\")",
+            "}"
+        ],
+        "description": "Form Actions",
+        "isFileTemplate": false
+    }
+}

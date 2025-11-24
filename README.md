@@ -45,7 +45,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | ----------- |
 | `saf`  | `cmd+3` or `ctrl+3` | Inserts a Server Action Form snippet |
 
-![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/_0RE5I3U2y/original)
+![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/Mlg8OPAve-/original)
 
 ## TSX
 #### React Function Component
@@ -70,7 +70,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | ----------- |
 | `saf`  | `cmd+3` or `ctrl+3` | Inserts a Server Action Form snippet |
 
-![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/j8iivZLgIS/original)
+![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/SgYN7b5tnP/original)
 
 ## Shared
 #### React Router

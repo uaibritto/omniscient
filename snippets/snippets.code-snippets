@@ -9,7 +9,7 @@
     "Server Route": {
         "scope": "javascript,typescript",
         "prefix": "sr",
-        "body": [".${1:get}(\"${2:get}\", async ({ }) => {", "    $3", "})"],
+        "body": [".${1:get}(\"/\", async () => { $2 })"],
         "description": "Server Route",
         "isFileTemplate": false
     }

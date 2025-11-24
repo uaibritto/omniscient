@@ -1,7 +1,7 @@
 import type { JSX } from "react"
 import { BrowserRouter, Route, Routes } from "react-router"
 
-export default function Route(): JSX.Element {
+export default function Router(): JSX.Element {
 	return (
 		<BrowserRouter>
 			<Routes>

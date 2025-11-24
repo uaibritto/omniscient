@@ -1,12 +1,11 @@
-import { useActionState } from "react"
+import { type JSX, useActionState } from "react"
 import { action } from "~/actions"
 
-export default function Form() {
+export default function Form(): JSX.Element {
 	const [state, formAction, isPending] = useActionState(action, null)
 
 	return (
-		<form action={action}>
-
+		<form action={formAction}>
 			<button type="submit" disabled={isPending}>
 				{isPending ? "Loading..." : "Submit"}
 			</button>

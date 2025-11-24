@@ -7,7 +7,7 @@
             "",
             "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(props: ComponentProps<\"$1\">): JSX.Element {",
             "    return (",
-            "        $2",
+            "        <${1:${TM_FILENAME_BASE}}>$2</${1:${TM_FILENAME_BASE}}>",
             "    )",
             "}"
         ],
@@ -22,7 +22,7 @@
             "",
             "export const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} = (props: ComponentProps<\"$1\">): JSX.Element => {",
             "    return (",
-            "        $1",
+            "        <${1:${TM_FILENAME_BASE}}>$2</${1:${TM_FILENAME_BASE}}>",
             "    )",
             "}"
         ],
@@ -40,7 +40,7 @@
             "    const [state, formAction, isPending] = useActionState(action, null)",
             "",
             "    return (",
-            "        <form action={action}>",
+            "        <form action={formAction}>",
             "            $1",
             "            <button type=\"submit\" disabled={isPending}>",
             "                {isPending ? \"Loading...\" : \"Submit\"}",

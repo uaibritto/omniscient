@@ -33,3 +33,15 @@ Initial release
 
 - Server script snippet for Prisma, Biome, and Bun;
 - Utility for creating routes on the server.
+
+## v`0.0.8` | `November 14, 2025`
+
+### Added
+
+- New snippet: "Function Form Actions" for JavaScript, JavaScript React, TypeScript, and TypeScript React, providing a structured template for handling form actions and requests.
+- Improved code snippet definitions for better usability and consistency.
+
+### Corrections
+
+- Minor documentation and snippet description adjustments.
+- Package.json snippet registration improvements to ensure all relevant languages and file types receive new actions.
