@@ -89,6 +89,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 
 ![Tanstack Query](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/c7jY1z3sqq/original)
 
+
 #### Console Log
 
 | Prefix | Key Binding | Description |
@@ -97,13 +98,21 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 
 ![Console Log](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/qmt4AM64rF/original)
 
+#### Form Actions Function
+
+| Prefix | Key Binding | Description |
+| ------ | ----------- | ----------- |
+| `faf`  | `null` | Form actions function |
+
+![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/SW4DW1zfGI/original)
+
 ## Server
 #### Route
 | Prefix | Key Binding | Description |
 | ------ | ----------- | ----------- |
 | `sr`  | `cmd+7` or `ctrl+7` | Utility for creating routes on the server. |
 
-![Server Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/6n06CvkQ_1/original)
+![Server Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/vrhvBfiGtf/original)
 
 ## JSX / HTML
 #### Scaffolding
@@ -121,7 +130,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | ----------- |
 | `bio`  | `cmd+9` or `ctrl+9` | Inserts the default biome design settings. |
 
-![Biome Config](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/EvmUP3A-6Q/original)
+![Biome Config](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/nd6ywXkqUJ/original)
 
 #### Server Scripts
 
@@ -129,7 +138,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | ----------- |
 | `scp`  | `cmd+0` or `ctrl+0` | Server scripts with Prisma, Biome, and Bun. |
 
-![Server Scripts](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/yYT0zLo97I/original)
+![Server Scripts](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/UKTKbTqxMu/original)
 
  ## Issues
  If you find any issues, please open an issue on the [GitHub repository](https://github.com/uaibritto/omniscient/issues).

@@ -45,3 +45,15 @@ Initial release
 
 - Minor documentation and snippet description adjustments.
 - Package.json snippet registration improvements to ensure all relevant languages and file types receive new actions.
+
+## v`0.0.9` | `November 14, 2025`
+
+
+### Added
+
+- Added snippet for inserting the default Biome config (`bio`) for JSON files.
+
+### Corrections
+
+- Improved README to document new snippets, including images and usage instructions for Biome config and server scripts.
+- General README enhancements for clarity and completeness.

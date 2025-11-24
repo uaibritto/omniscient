@@ -101,9 +101,9 @@
             "\"scripts\": {",
             "    \"dev\": \"bun --hot src/server.ts\",",
             "    \"start\": \"bun src/server.ts\",",
-            "    \"build\": \"bun build src/server.ts\"",
+            "    \"build\": \"bun build src/server.ts\",",
             "    \"format\": \"biome format --write\",",
-            "    \"lint\": \"biome lint --write\",",
+            "    \"lint\": \"biome lint --write\"",
             "}"
         ],
         "description": "Scripts"

@@ -1,13 +1,13 @@
 {
-    "Function Form Actions": {
+    "Form Actions Function": {
         "scope": "javascript, javascriptreact",
-        "prefix": "ffa",
+        "prefix": "faf",
         "body": [
             "export async function ${1:${TM_FILENAME_BASE}}(request) {",
             "    const $2 = request.get(\"$3\")",
             "}"
         ],
-        "description": "Form Actions",
+        "description": "React Form",
         "isFileTemplate": false
     }
 }
