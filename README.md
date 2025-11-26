@@ -132,7 +132,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | --------------------- |
 | `faf`  | `null`      | Form actions function |
 
-![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/Kqo_Yz4Bim/original)
+![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/Rdj-S0Pfbe/original)
 
 ## TypeScript
 
@@ -142,7 +142,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | --------------------- |
 | `faf`  | `null`      | Form actions function |
 
-![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/nrHnl-dH8u/original)
+![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/GxzclR6qIE/original)
 
 ## Shared
 

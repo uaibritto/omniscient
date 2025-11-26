@@ -89,3 +89,10 @@ This ensures the true usefulness of each component, since larger components, suc
 - Expanded documentation in the README to detail the new snippet, including syntax, usage, and supported scopes.
 
 - Improved matching between documentation and registered snippets, ensuring clarity on the shortcuts available for each language.
+
+## v`0.1.3` | `November 26, 2025`
+
+Update to version 0.1.3 with snippet enhancements and README updates.
+
+- Modified JavaScript and TypeScript snippets to improve form handling by changing parameters and adding "use server" directive.
+- Updated images in README for the "Form Actions Function" to reflect new content.

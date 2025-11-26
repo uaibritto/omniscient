@@ -3,8 +3,10 @@
         "scope": "javascript, javascriptreact",
         "prefix": "faf",
         "body": [
-            "export async function ${1:${TM_FILENAME_BASE}}(request) {",
-            "    const $2 = request.get(\"$3\")",
+            "\"use server\"",
+            "",
+            "export async function ${1:${TM_FILENAME_BASE}}(currentState, formData) {",
+            "    const $2 = formData.get(\"$2\")",
             "}"
         ],
         "description": "React Form",
