@@ -1,4 +1,5 @@
 # Changelog
+
 All changes made to the project will be documented here.
 
 ## v`0.0.3` | `November 6, 2025`
@@ -48,7 +49,6 @@ Initial release
 
 ## v`0.0.9` | `November 14, 2025`
 
-
 ### Added
 
 - Added snippet for inserting the default Biome config (`bio`) for JSON files.
@@ -57,3 +57,19 @@ Initial release
 
 - Improved README to document new snippets, including images and usage instructions for Biome config and server scripts.
 - General README enhancements for clarity and completeness.
+
+## v`0.1.0` | `November 14, 2025`
+
+### Added
+
+- New snippet for adding favicons to your pages.
+
+### Corrections and improvements
+
+- The code snippets for creating components have been improved and divided into two parts:
+    - `Components with props`
+    - `Components without props`
+
+This ensures the true usefulness of each component, since larger components, such as a card or a page, are incompatible with how props were previously defined.
+
+- Improvements to the documentation to maintain consistency and fidelity with the code snippets.

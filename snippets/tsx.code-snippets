@@ -3,6 +3,21 @@
         "scope": "typescriptreact",
         "prefix": "rfc",
         "body": [
+            "import type { JSX } from \"react\"",
+            "",
+            "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(): JSX.Element {",
+            "    return (",
+            "        $1",
+            "    )",
+            "}"
+        ],
+        "description": "React Components",
+        "isFileTemplate": true
+    },
+    "React Function Component with Props": {
+        "scope": "typescriptreact",
+        "prefix": "rfcp",
+        "body": [
             "import type { ComponentProps, JSX } from \"react\"",
             "",
             "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(props: ComponentProps<\"$1\">): JSX.Element {",
@@ -15,6 +30,36 @@
         "isFileTemplate": true
     },
     "React Arrow Function Component": {
+        "scope": "typescriptreact",
+        "prefix": "raf",
+        "body": [
+            "import type { JSX } from \"react\"",
+            "",
+            "export const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} = (): JSX.Element => {",
+            "    return (",
+            "        $1",
+            "    )",
+            "}"
+        ],
+        "description": "React Components",
+        "isFileTemplate": true
+    },
+    "React Arrow Function Component with Props": {
+        "scope": "typescriptreact",
+        "prefix": "rafp",
+        "body": [
+            "import type { ComponentProps, JSX } from \"react\"",
+            "",
+            "export const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} = (props: ComponentProps<\"$1\">): JSX.Element => {",
+            "    return (",
+            "        <${1:${TM_FILENAME_BASE}}>$2</${1:${TM_FILENAME_BASE}}>",
+            "    )",
+            "}"
+        ],
+        "description": "React Components",
+        "isFileTemplate": true
+    },
+    "React Arrow Function Component with Props and Children": {
         "scope": "typescriptreact",
         "prefix": "raf",
         "body": [
@@ -97,7 +142,7 @@
         "description": "Tanstack",
         "isFileTemplate": false
     },
-    "React ClassName Attribute": {
+    "Icon Component": {
         "scope": "typescriptreact",
         "prefix": "class",
         "body": ["className=\"$1\""],
