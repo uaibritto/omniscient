@@ -42,12 +42,8 @@
                 "path": "snippets/snippets.code-snippets"
             },
             {
-                "language": "typescript",
-                "path": "snippets/snippets.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "snippets/ts.code-snippets"
+                "language": "javascript",
+                "path": "snippets/utils-js.code-snippets"
             },
             {
                 "language": "javascriptreact",
@@ -56,6 +52,18 @@
             {
                 "language": "javascriptreact",
                 "path": "snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "snippets/ts.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "snippets/utils-ts.code-snippets"
             },
             {
                 "language": "typescriptreact",
