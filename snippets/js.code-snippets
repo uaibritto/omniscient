@@ -1,13 +1,9 @@
 {
-    "Form Actions Function": {
-        "scope": "javascript, javascriptreact",
-        "prefix": "faf",
-        "body": [
-            "export async function ${1:${TM_FILENAME_BASE}}(request) {",
-            "    const $2 = request.get(\"$3\")",
-            "}"
-        ],
-        "description": "React Form",
+    "Server Route": {
+        "scope": "javascript,typescript",
+        "prefix": "sr",
+        "body": [".${1:get}(\"/\", async () => { $2 })"],
+        "description": "Server Route",
         "isFileTemplate": false
     }
 }

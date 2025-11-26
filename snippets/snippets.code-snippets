@@ -5,12 +5,5 @@
         "body": "console.log($TM_SELECTED_TEXT)",
         "description": "Console log",
         "isFileTemplate": false
-    },
-    "Server Route": {
-        "scope": "javascript,typescript",
-        "prefix": "sr",
-        "body": [".${1:get}(\"/\", async () => { $2 })"],
-        "description": "Server Route",
-        "isFileTemplate": false
     }
 }

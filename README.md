@@ -32,7 +32,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ------------------------------------------ |
 | `rfc`  | `cmd+1` or `ctrl+1` | Inserts a React Function Component snippet |
 
-![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/ZFhpSTtEEa/original)
+![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/1Cy4tWPefp/original)
 
 #### React Arrow Function Component
 
@@ -40,7 +40,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ------------------------------------------------ |
 | `raf`  | `cmd+2` or `ctrl+2` | Inserts a React Arrow Function Component snippet |
 
-![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/vdu_OuBiFc/original)
+![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/n2yh3gY3Y5/original)
 
 #### Server Action Form
 
@@ -48,7 +48,23 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ------------------------------------ |
 | `saf`  | `cmd+3` or `ctrl+3` | Inserts a Server Action Form snippet |
 
-![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/Mlg8OPAve-/original)
+![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/BUCfoOtMpn/original)
+
+#### React Router
+
+| Prefix | Key Binding         | Description                              |
+| ------ | ------------------- | ---------------------------------------- |
+| `rrc`  | `cmd+4` or `ctrl+4` | Inserts a React Router Component snippet |
+
+![React Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/8lpMVPCcvM/original)
+
+#### Tanstack Query
+
+| Prefix | Key Binding         | Description                      |
+| ------ | ------------------- | -------------------------------- |
+| `tq`   | `cmd+5` or `ctrl+5` | Inserts a Tanstack Query snippet |
+
+![Tanstack Query](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/HFEAi08iiH/original)
 
 ## TSX
 
@@ -58,7 +74,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ----------------------------------- |
 | `rfc`  | `cmd+1` or `ctrl+1` | Inserts a React function component. |
 
-![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/fX1VhG5fYI/original)
+![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/OqwuUfjuka/original)
 
 #### React Function Component
 
@@ -66,7 +82,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | --------------------------------------------- |
 | `rfcp` | `null`      | Inserts a function component with properties. |
 
-![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/IpadH70KNg/original)
+![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/NMGn-xtZKP/original)
 
 #### React Arrow Function Component
 
@@ -74,7 +90,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ----------------------------------------- |
 | `raf`  | `cmd+2` or `ctrl+2` | Inserts a React arrow function component. |
 
-![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/C57Ap_IJ2A/original)
+![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/27BBuvFHYw/original)
 
 #### React Arrow Function Component
 
@@ -82,7 +98,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | --------------------------------------------------------- |
 | `rafp` | `null`      | Inserts a React arrow function component with properties. |
 
-![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/HHBJ5YyXr2/original)
+![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/frZcXfFcxD/original)
 
 #### Server Action Form
 
@@ -90,9 +106,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ------------------------------------ |
 | `saf`  | `cmd+3` or `ctrl+3` | Inserts a Server Action Form snippet |
 
-![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/SgYN7b5tnP/original)
-
-## Shared
+![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/6qq_4eVw6l/original)
 
 #### React Router
 
@@ -100,7 +114,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ---------------------------------------- |
 | `rrc`  | `cmd+4` or `ctrl+4` | Inserts a React Router Component snippet |
 
-![React Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/ZEIEtNk-DO/original)
+![React Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/33ABlwHT_H/original)
 
 #### Tanstack Query
 
@@ -108,7 +122,29 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | -------------------------------- |
 | `tq`   | `cmd+5` or `ctrl+5` | Inserts a Tanstack Query snippet |
 
-![Tanstack Query](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/c7jY1z3sqq/original)
+![Tanstack Query](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/RPw3Y451qc/original)
+
+## JavaScript
+
+#### Form Actions Function
+
+| Prefix | Key Binding | Description           |
+| ------ | ----------- | --------------------- |
+| `faf`  | `null`      | Form actions function |
+
+![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/Kqo_Yz4Bim/original)
+
+## TypeScript
+
+#### Form Actions Function
+
+| Prefix | Key Binding | Description           |
+| ------ | ----------- | --------------------- |
+| `faf`  | `null`      | Form actions function |
+
+![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/nrHnl-dH8u/original)
+
+## Shared
 
 #### Console Log
 
@@ -117,16 +153,6 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | `clg`  | `cmd+6` or `ctrl+6` | Wrap the selected content in a console.log file. |
 
 ![Console Log](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/qmt4AM64rF/original)
-
-#### Form Actions Function
-
-| Prefix | Key Binding | Description           |
-| ------ | ----------- | --------------------- |
-| `faf`  | `null`      | Form actions function |
-
-![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/SW4DW1zfGI/original)
-
-## Server
 
 #### Route
 

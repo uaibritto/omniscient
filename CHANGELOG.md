@@ -35,7 +35,7 @@ Initial release
 - Server script snippet for Prisma, Biome, and Bun;
 - Utility for creating routes on the server.
 
-## v`0.0.8` | `November 14, 2025`
+## v`0.0.8` | `November 24, 2025`
 
 ### Added
 
@@ -58,7 +58,7 @@ Initial release
 - Improved README to document new snippets, including images and usage instructions for Biome config and server scripts.
 - General README enhancements for clarity and completeness.
 
-## v`0.1.0` | `November 14, 2025`
+## v`0.1.0` | `November 26, 2025`
 
 ### Added
 
@@ -73,3 +73,19 @@ Initial release
 This ensures the true usefulness of each component, since larger components, such as a card or a page, are incompatible with how props were previously defined.
 
 - Improvements to the documentation to maintain consistency and fidelity with the code snippets.
+
+## v`0.1.1` | `November 26, 2025`
+
+### Added
+
+- New "Form Actions Function" snippet available for JavaScript, JavaScript React, TypeScript, and TypeScript React (`faf`). This snippet adds a structured template for handling form actions and requests, making it easier to create asynchronous functions that process data from forms.
+
+- All relevant snippet files have been updated to include the shortcut and documentation for the new snippet.
+
+### Fixes and improvements
+
+- Registration of the "Form Actions Function" snippets ensured in `"snippets/utils-js.code-snippets"` and `"snippets/utils-ts.code-snippets"`, covering React and non-React environments.
+
+- Expanded documentation in the README to detail the new snippet, including syntax, usage, and supported scopes.
+
+- Improved matching between documentation and registered snippets, ensuring clarity on the shortcuts available for each language.

@@ -2,7 +2,7 @@
     "name": "omniscient",
     "displayName": "Omniscient",
     "description": "A collection of code snippets that make a difference in your day-to-day work.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "uaibritto",
     "icon": "assets/icon.png",
     "license": "MIT",
@@ -51,7 +51,7 @@
             },
             {
                 "language": "javascriptreact",
-                "path": "snippets/js.code-snippets"
+                "path": "snippets/utils-js.code-snippets"
             },
             {
                 "language": "javascriptreact",
@@ -59,7 +59,7 @@
             },
             {
                 "language": "typescriptreact",
-                "path": "snippets/ts.code-snippets"
+                "path": "snippets/utils-ts.code-snippets"
             },
             {
                 "language": "typescriptreact",
