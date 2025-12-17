@@ -1,5 +1,7 @@
 import type { ComponentProps, JSX } from "react"
 
-export default function Button(props: ComponentProps<"button">): JSX.Element {
-	return <button></button>
+export const Button = (props: ComponentProps<"button">): JSX.Element => {
+	return (
+		<button {...props}></button>
+	)
 }

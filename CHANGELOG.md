@@ -96,3 +96,18 @@ Update to version 0.1.3 with snippet enhancements and README updates.
 
 - Modified JavaScript and TypeScript snippets to improve form handling by changing parameters and adding "use server" directive.
 - Updated images in README for the "Form Actions Function" to reflect new content.
+
+## v`0.1.6` | `December 17, 2025`
+
+Update dependencies and enhance snippets for improved functionality.
+
+- Added new snippets for Drizzle and Prisma configurations with Postgres.
+- Improved README with new images and documentation for added snippets.
+- Refactored button component to accept props for better flexibility.
+
+## v`0.2.6` | `December 17, 2025`
+
+Update dependencies, enhance snippets, and modify configuration files for improved functionality.
+
+- Updated Biome schema to version 2.3.9.
+- The Docker Compose snippets have been removed because there was a bug in the snippet generation that cannot be fixed at this time.

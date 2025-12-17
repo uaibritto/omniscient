@@ -1,3 +1,5 @@
-export async function action(request: FormData): Promise<void> {
-	const  = request.get("")
+export async function action(_: null, form: FormData) {
+	const name = form.get("name")
+
+	console.log(name)
 }

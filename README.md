@@ -82,7 +82,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | --------------------------------------------- |
 | `rfcp` | `null`      | Inserts a function component with properties. |
 
-![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/NMGn-xtZKP/original)
+![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/c6YutsGLEe/original)
 
 #### React Arrow Function Component
 
@@ -98,7 +98,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ----------- | --------------------------------------------------------- |
 | `rafp` | `null`      | Inserts a React arrow function component with properties. |
 
-![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/frZcXfFcxD/original)
+![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/B42aXpwWs2/original)
 
 #### Server Action Form
 
@@ -161,6 +161,22 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | `sr`   | `cmd+7` or `ctrl+7` | Utility for creating routes on the server. |
 
 ![Server Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/vrhvBfiGtf/original)
+
+#### Drizzle
+
+| Prefix | Key Binding         | Description                                |
+| ------ | ------------------- | ------------------------------------------ |
+| `dcp`   | `null` | Drizzle configurations with Postgres. |
+
+![Drizzle](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/R5vAj2g7De/original)
+
+#### Prisma
+
+| Prefix | Key Binding         | Description                                |
+| ------ | ------------------- | ------------------------------------------ |
+| `pcp`   | `null` | Prisma configurations with Postgres. |
+
+![Prisma](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/5vX0RfT9qO/original)
 
 ## JSX / HTML
 

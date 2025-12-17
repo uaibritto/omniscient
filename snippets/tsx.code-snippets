@@ -22,7 +22,7 @@
             "",
             "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(props: ComponentProps<\"$1\">): JSX.Element {",
             "    return (",
-            "        <${1:${TM_FILENAME_BASE}}>$2</${1:${TM_FILENAME_BASE}}>",
+            "        <${1:${TM_FILENAME_BASE}} {...props}>$2</${1:${TM_FILENAME_BASE}}>",
             "    )",
             "}"
         ],
@@ -52,7 +52,7 @@
             "",
             "export const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} = (props: ComponentProps<\"$1\">): JSX.Element => {",
             "    return (",
-            "        <${1:${TM_FILENAME_BASE}}>$2</${1:${TM_FILENAME_BASE}}>",
+            "        <${1:${TM_FILENAME_BASE}} {...props}>$2</${1:${TM_FILENAME_BASE}}>",
             "    )",
             "}"
         ],
