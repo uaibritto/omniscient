@@ -11,10 +11,11 @@
             "    )",
             "}"
         ],
-        "description": "React Components",
+        "description": "Creates a React functional component",
         "isFileTemplate": true
     },
-    "React Function Component with Props": {
+
+    "React Function Component With Properties": {
         "scope": "typescriptreact",
         "prefix": "rfcp",
         "body": [
@@ -26,9 +27,10 @@
             "    )",
             "}"
         ],
-        "description": "React Components",
+        "description": "Creates a React functional component with properties",
         "isFileTemplate": true
     },
+
     "React Arrow Function Component": {
         "scope": "typescriptreact",
         "prefix": "raf",
@@ -41,10 +43,10 @@
             "    )",
             "}"
         ],
-        "description": "React Components",
+        "description": "Creates a React arrow function component",
         "isFileTemplate": true
     },
-    "React Arrow Function Component with Props": {
+    "React Arrow Function Component with Properties": {
         "scope": "typescriptreact",
         "prefix": "rafp",
         "body": [
@@ -56,33 +58,19 @@
             "    )",
             "}"
         ],
-        "description": "React Components",
+        "description": "Creates a React arrow function component with properties",
         "isFileTemplate": true
     },
-    "React Arrow Function Component with Props and Children": {
-        "scope": "typescriptreact",
-        "prefix": "raf",
-        "body": [
-            "import type { ComponentProps, JSX } from \"react\"",
-            "",
-            "export const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} = (props: ComponentProps<\"$1\">): JSX.Element => {",
-            "    return (",
-            "        <${1:${TM_FILENAME_BASE}}>$2</${1:${TM_FILENAME_BASE}}>",
-            "    )",
-            "}"
-        ],
-        "description": "React Components",
-        "isFileTemplate": true
-    },
+
     "Server Action Form": {
         "scope": "typescriptreact",
         "prefix": "saf",
         "body": [
             "import { type JSX, useActionState } from \"react\"",
-            "import { action } from \"~/actions\"",
+            "import { action } from \"@/actions\"",
             "",
             "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(): JSX.Element {",
-            "    const [state, formAction, isPending] = useActionState(action, null)",
+            "    const [_, formAction, isPending] = useActionState(action, null)",
             "",
             "    return (",
             "        <form action={formAction}>",
@@ -94,9 +82,10 @@
             "    )",
             "}"
         ],
-        "description": "React Form Action",
+        "description": "Creates a React server action form component",
         "isFileTemplate": true
     },
+
     "React Router Component": {
         "scope": "typescriptreact",
         "prefix": "rrc",
@@ -104,29 +93,34 @@
             "import type { JSX } from \"react\"",
             "import { BrowserRouter, Route, Routes } from \"react-router\"",
             "",
+            "import { Home } from \"@/pages\"",
+            "import { NotFound } from \"@/pages/erros\"",
+            "import RootLayout from \"@/rootLayout\"",
+            "",
             "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(): JSX.Element {",
             "    return (",
             "        <BrowserRouter>",
             "            <Routes>",
-            "                <Route path=\"/\" element={<h1>Layout</h1>}>",
-            "                    <Route index element={<h1>Home</h1>} />",
+            "                <Route path=\"/\" element={<RootLayout />}>",
+            "                    <Route index element={<Home />} />",
             "                </Route>",
             "",
-            "                <Route path=\"*\" element={<h1>404</h1>} />",
+            "                <Route path=\"*\" element={<NotFound />} />",
             "            </Routes>",
             "        </BrowserRouter>",
             "    )",
             "}"
         ],
-        "description": "React Router",
-        "isFileTemplate": false
+        "description": "Creates a React router component",
+        "isFileTemplate": true
     },
-    "Tanstack Query": {
+
+    "Tanstack Query Component": {
         "scope": "typescriptreact",
-        "prefix": "tq",
+        "prefix": "tqe",
         "body": [
-            "import type { JSX } from \"react\"",
             "import { useQuery } from \"@tanstack/react-query\"",
+            "import type { JSX } from \"react\"",
             "",
             "export default function ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}(): JSX.Element {",
             "    const [data, isLoading, error] = useQuery({",
@@ -139,14 +133,15 @@
             "    )",
             "}"
         ],
-        "description": "Tanstack",
-        "isFileTemplate": false
+        "description": "Creates a Tanstack Query component",
+        "isFileTemplate": true
     },
-    "Icon Component": {
+
+    "React Attribute": {
         "scope": "typescriptreact",
         "prefix": "class",
         "body": ["className=\"$1\""],
-        "description": "React Attribute",
+        "description": "Inserts a className attribute",
         "isFileTemplate": false
     }
 }

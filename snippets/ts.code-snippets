@@ -1,9 +1,0 @@
-{
-    "Server Route": {
-        "scope": "javascript,typescript",
-        "prefix": "sr",
-        "body": [".${1:get}(\"/\", async () => { $2 })"],
-        "description": "Server Route",
-        "isFileTemplate": false
-    }
-}

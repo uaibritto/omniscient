@@ -1,10 +1,10 @@
 {
-    "Biome Config": {
-        "scope": "json,jsonc",
-        "prefix": "bio",
+    "Biome Configuration": {
+        "scope": "json",
+        "prefix": "bcfg",
         "body": [
             "{",
-            "    \"$$schema\": \"https://biomejs.dev/schemas/2.3.${1:7}/schema.json\",",
+            "    \"$$schema\": \"https://biomejs.dev/schemas/2.3.${1:10}/schema.json\",",
             "    \"vcs\": {",
             "        \"enabled\": true,",
             "        \"clientKind\": \"git\",",
@@ -92,20 +92,21 @@
             "    }",
             "}"
         ],
-        "description": "Biome configuration"
+        "description": "Biome configuration file",
+        "isFileTemplate": false
     },
-    "Scripts": {
+    "Package.json Scripts": {
         "scope": "json",
-        "prefix": "scp",
+        "prefix": "psc",
         "body": [
             "\"scripts\": {",
-            "    \"dev\": \"bun --hot src/server.ts\",",
-            "    \"start\": \"bun src/server.ts\",",
-            "    \"build\": \"bun build src/server.ts\",",
+            "    \"dev\": \"bun --hot src/${1:server.ts}\",",
+            "    \"start\": \"bun src/${1:server.ts}\",",
             "    \"format\": \"biome format --write\",",
             "    \"lint\": \"biome lint --write\"",
             "}"
         ],
-        "description": "Scripts"
+        "description": "Package.json scripts for a Bun project",
+        "isFileTemplate": false
     }
 }

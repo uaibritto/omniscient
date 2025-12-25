@@ -1,0 +1,50 @@
+{
+	"Server Route Handler": {
+		"scope": "javascript,typescript",
+		"prefix": "srh",
+		"body": [".${1:get}(\"/\", async () => { $2 })"],
+		"description": "Creates a server route handler.",
+		"isFileTemplate": false
+	},
+	"Drizzle Kit Config": {
+		"scope": "javascript,typescript",
+		"prefix": "dcfg",
+		"body": [
+			"import path from 'node:path'",
+			"import { defineConfig } from 'drizzle-kit'",
+			"",
+			"export default defineConfig({",
+			"    dialect: '${1:postgresql}',",
+			"    schema: path.join('src', 'db', 'schema'),",
+			"    out: path.join('src', 'db', 'generated'),",
+			"",
+			"    dbCredentials: {",
+			"        url: process.env.DATABASE_URL ?? ''",
+			"    }",
+			"})"
+		],
+		"description": "Drizzle Kit configuration file.",
+		"isFileTemplate": true
+	},
+	"Prisma Config": {
+		"scope": "javascript,typescript",
+		"prefix": "pcfg",
+		"body": [
+			"import 'dotenv/config'",
+			"import path from 'node:path'",
+			"import { defineConfig, env } from 'prisma/config'",
+			"",
+			"export default defineConfig({",
+			"    schema: path.join('src', 'db', 'schema'),",
+			"    migrations: {",
+			"        path: path.join('src', 'db', 'migrations'),",
+			"    },",
+			"    datasource: {",
+			"        url: env('DATABASE_URL')",
+			"    }",
+			"})"
+		],
+		"description": "Prisma configuration file.",
+		"isFileTemplate": true
+	}
+}

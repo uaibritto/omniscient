@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>Omniscient</h1>
+  <h1>Eden</h1>
   <p>A collection of code snippets that make a difference in your day-to-day work.</p>
-  <img src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/hbDPaitqPi/original" alt="Omniscient Logo" width="300">
+  <img src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/hbDPaitqPi/original" alt="Eden Logo" width="300">
 </div>
 
 ## Features
@@ -32,7 +32,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ------------------------------------------ |
 | `rfc`  | `cmd+1` or `ctrl+1` | Inserts a React Function Component snippet |
 
-![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/1Cy4tWPefp/original)
+![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/El3VdfBy86/original)
 
 #### React Arrow Function Component
 
@@ -40,7 +40,7 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ------------------------------------------------ |
 | `raf`  | `cmd+2` or `ctrl+2` | Inserts a React Arrow Function Component snippet |
 
-![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/n2yh3gY3Y5/original)
+![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/pR0F4pOsOT/original)
 
 #### Server Action Form
 
@@ -48,23 +48,23 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ------------------------------------ |
 | `saf`  | `cmd+3` or `ctrl+3` | Inserts a Server Action Form snippet |
 
-![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/BUCfoOtMpn/original)
+![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/lSODgS0BrR/original)
 
 #### React Router
 
 | Prefix | Key Binding         | Description                              |
 | ------ | ------------------- | ---------------------------------------- |
-| `rrc`  | `cmd+4` or `ctrl+4` | Inserts a React Router Component snippet |
+| `rrc`  | `cmd+5` or `ctrl+5` | Inserts a React Router Component snippet |
 
-![React Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/8lpMVPCcvM/original)
+![React Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/2y_Yf3Y3Oz/original)
 
 #### Tanstack Query
 
 | Prefix | Key Binding         | Description                      |
 | ------ | ------------------- | -------------------------------- |
-| `tq`   | `cmd+5` or `ctrl+5` | Inserts a Tanstack Query snippet |
+| `tq`   | `cmd+6` or `ctrl+6` | Inserts a Tanstack Query snippet |
 
-![Tanstack Query](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/HFEAi08iiH/original)
+![Tanstack Query](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/nhF4JmXjkm/original)
 
 ## TSX
 
@@ -74,15 +74,15 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ----------------------------------- |
 | `rfc`  | `cmd+1` or `ctrl+1` | Inserts a React function component. |
 
-![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/OqwuUfjuka/original)
+![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/5TqHynCOA8/original)
 
 #### React Function Component
 
 | Prefix | Key Binding | Description                                   |
 | ------ | ----------- | --------------------------------------------- |
-| `rfcp` | `null`      | Inserts a function component with properties. |
+| `rfcp` | `cmd+shift+1` or `ctrl+shift+1` | Inserts a function component with properties. |
 
-![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/c6YutsGLEe/original)
+![React Function Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/jh0bpLsy3V/original)
 
 #### React Arrow Function Component
 
@@ -90,15 +90,15 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ----------------------------------------- |
 | `raf`  | `cmd+2` or `ctrl+2` | Inserts a React arrow function component. |
 
-![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/27BBuvFHYw/original)
+![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/HqEEpAcSqp/original)
 
 #### React Arrow Function Component
 
 | Prefix | Key Binding | Description                                               |
 | ------ | ----------- | --------------------------------------------------------- |
-| `rafp` | `null`      | Inserts a React arrow function component with properties. |
+| `rafp` | `cmd+shift+2` or `ctrl+shift+2` | Inserts a React arrow function component with properties. |
 
-![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/B42aXpwWs2/original)
+![Arrow Component](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/f4EKvdApO6/original)
 
 #### Server Action Form
 
@@ -106,23 +106,23 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 | ------ | ------------------- | ------------------------------------ |
 | `saf`  | `cmd+3` or `ctrl+3` | Inserts a Server Action Form snippet |
 
-![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/6qq_4eVw6l/original)
+![Server Action Form](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/yG7UwsPOfJ/original)
 
 #### React Router
 
 | Prefix | Key Binding         | Description                              |
 | ------ | ------------------- | ---------------------------------------- |
-| `rrc`  | `cmd+4` or `ctrl+4` | Inserts a React Router Component snippet |
+| `rrc`  | `cmd+5` or `ctrl+5` | Inserts a React Router Component snippet |
 
-![React Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/33ABlwHT_H/original)
+![React Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/4PfH2pf9Y_/original)
 
 #### Tanstack Query
 
 | Prefix | Key Binding         | Description                      |
 | ------ | ------------------- | -------------------------------- |
-| `tq`   | `cmd+5` or `ctrl+5` | Inserts a Tanstack Query snippet |
+| `tqe`   | `cmd+6` or `ctrl+6` | Inserts a Tanstack Query snippet |
 
-![Tanstack Query](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/RPw3Y451qc/original)
+![Tanstack Query](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/fL-08I8yWc/original)
 
 ## JavaScript
 
@@ -130,9 +130,9 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 
 | Prefix | Key Binding | Description           |
 | ------ | ----------- | --------------------- |
-| `faf`  | `null`      | Form actions function |
+| `faf`  | `cmd+4` or `ctrl+4` | Form actions function |
 
-![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/dBvTzUh66K/original)
+![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/6qxHolC450/original)
 
 ## TypeScript
 
@@ -140,9 +140,9 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 
 | Prefix | Key Binding | Description           |
 | ------ | ----------- | --------------------- |
-| `faf`  | `null`      | Form actions function |
+| `faf`  | `cmd+4` or `ctrl+4` | Form actions function |
 
-![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/eE6lTmhBi6/original)
+![Form Actions Function](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/5Y1iKM0Ovn/original)
 
 ## Shared
 
@@ -150,43 +150,59 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 
 | Prefix | Key Binding         | Description                                      |
 | ------ | ------------------- | ------------------------------------------------ |
-| `clg`  | `cmd+6` or `ctrl+6` | Wrap the selected content in a console.log file. |
+| `clog`  | `cmd+;` or `ctrl+;` | Wrap the selected content in a console.log file. |
 
-![Console Log](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/qmt4AM64rF/original)
+![Console Log](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/Avghmk_uEC/original)
+
+#### Console Error
+
+| Prefix | Key Binding         | Description                                      |
+| ------ | ------------------- | ------------------------------------------------ |
+| `cerr`  | `cmd+'` or `ctrl+'` | Wrap the selected content in a console.error file. |
+
+![Console Log](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/tDwk6ypJ2F/original)
 
 #### Route
 
 | Prefix | Key Binding         | Description                                |
 | ------ | ------------------- | ------------------------------------------ |
-| `sr`   | `cmd+7` or `ctrl+7` | Utility for creating routes on the server. |
+| `srh`   | `cmd+7` or `ctrl+7` | Utility for creating routes on the server. |
 
-![Server Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/vrhvBfiGtf/original)
+![Server Router](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/KUS9_rjMBW/original)
 
 #### Drizzle
 
 | Prefix | Key Binding         | Description                                |
 | ------ | ------------------- | ------------------------------------------ |
-| `dcp`   | `null` | Drizzle configurations with Postgres. |
+| `dcfg`   | `cmd+8` / `ctrl+8`  | Drizzle Kit Config. |
 
-![Drizzle](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/R5vAj2g7De/original)
+![Drizzle](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/E2xg8lnt2z/original)
 
 #### Prisma
 
 | Prefix | Key Binding         | Description                                |
 | ------ | ------------------- | ------------------------------------------ |
-| `pcp`   | `null` | Prisma configurations with Postgres. |
+| `pcfg`   | `cmd+9` / `ctrl+9`  | Prisma configuration file. |
 
-![Prisma](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/5vX0RfT9qO/original)
+![Prisma](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/DMe2tJnjeD/original)
 
 ## JSX / HTML
 
-#### Scaffolding
+#### Scaffolding HTML
 
 | Prefix | Key Binding         | Description                              |
 | ------ | ------------------- | ---------------------------------------- |
-| `jsx`  | `cmd+8` or `ctrl+8` | Inserts a React Router Component snippet |
+| `base`  | `null` | Creates a basic HTML scaffold |
 
-![Scaffolding JSX](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/LM2Ct3WQD5/original)
+![Scaffolding JSX](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/9Mr_dH7EYd/original)
+
+#### Scaffolding JSX
+
+| Prefix | Key Binding         | Description                              |
+| ------ | ------------------- | ---------------------------------------- |
+| `jsx`  | `null` | Creates a basic HTML scaffold with JSX setup. |
+
+![Scaffolding JSX](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/p-fA7jD8-Q/original)
 
 ## JSON
 
@@ -194,17 +210,17 @@ The jsx and html scaffolding will inherit the workspace name and will be automat
 
 | Prefix | Key Binding         | Description                                |
 | ------ | ------------------- | ------------------------------------------ |
-| `bio`  | `cmd+9` or `ctrl+9` | Inserts the default biome design settings. |
+| `bio`  | `cmd+0` or `ctrl+0` | Inserts the default biome design settings. |
 
-![Biome Config](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/nd6ywXkqUJ/original)
+![Biome Config](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/48BtK-_QvD/original)
 
 #### Server Scripts
 
 | Prefix | Key Binding         | Description                                 |
 | ------ | ------------------- | ------------------------------------------- |
-| `scp`  | `cmd+0` or `ctrl+0` | Server scripts with Prisma, Biome, and Bun. |
+| `psc`  | `null` | Server scripts with Biome, and Bun. |
 
-![Server Scripts](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/UKTKbTqxMu/original)
+![Server Scripts](https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/E-j4AqhDb2/original)
 
 ## Issues
 

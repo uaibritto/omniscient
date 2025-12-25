@@ -1,207 +1,233 @@
 {
-    "name": "omniscient",
-    "displayName": "Omniscient",
-    "description": "A collection of code snippets that make a difference in your day-to-day work.",
-    "version": "0.1.7",
-    "publisher": "uaibritto",
-    "icon": "assets/icon.png",
-    "license": "MIT",
-    "maintainers": [
-        "Ricardo Brito <uaibritto@icloud.com>"
-    ],
-    "galleryBanner": {
-        "color": "#130e0b",
-        "theme": "dark"
-    },
-    "homepage": "https://github.com/uaibritto/omniscient",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/uaibritto/omniscient.git"
-    },
-    "bugs": {
-        "url": "https://github.com/uaibritto/omniscient/issues"
-    },
-    "engines": {
-        "vscode": "^1.13.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "html",
-                "path": "snippets/html.code-snippets"
-            },
-            {
-                "language": "javascript",
-                "path": "snippets/js.code-snippets"
-            },
-            {
-                "language": "javascript",
-                "path": "snippets/snippets.code-snippets"
-            },
-            {
-                "language": "javascript",
-                "path": "snippets/utils-js.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "snippets/utils-js.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "snippets/snippets.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "snippets/snippets.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "snippets/ts.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "snippets/utils-ts.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "snippets/utils-ts.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "snippets/snippets.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "snippets/tsx.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "snippets/jsx.code-snippets"
-            },
-            {
-                "language": "json",
-                "path": "snippets/json.code-snippets"
-            }
-        ],
-        "keybindings": [
-            {
-                "key": "ctrl+1",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+1",
-                "args": {
-                    "name": "React Function Component"
-                }
-            },
-            {
-                "key": "ctrl+2",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+2",
-                "args": {
-                    "name": "React Arrow Function Component"
-                }
-            },
-            {
-                "key": "ctrl+3",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+3",
-                "args": {
-                    "name": "Server Action Form"
-                }
-            },
-            {
-                "key": "ctrl+4",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+4",
-                "args": {
-                    "name": "React Router Component"
-                }
-            },
-            {
-                "key": "ctrl+5",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+5",
-                "args": {
-                    "name": "Tanstack Query"
-                }
-            },
-            {
-                "key": "ctrl+6",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+6",
-                "args": {
-                    "name": "Debug Log"
-                }
-            },
-            {
-                "key": "ctrl+7",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+7",
-                "args": {
-                    "name": "Server Route"
-                }
-            },
-            {
-                "key": "ctrl+8",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+8",
-                "args": {
-                    "name": "Scaffold JSX"
-                }
-            },
-            {
-                "key": "ctrl+9",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+9",
-                "args": {
-                    "name": "Biome Config"
-                }
-            },
-            {
-                "key": "ctrl+0",
-                "command": "editor.action.insertSnippet",
-                "when": "editorTextFocus",
-                "mac": "cmd+0",
-                "args": {
-                    "name": "Scripts"
-                }
-            }
-        ]
-    },
-    "keywords": [
-        "omniscient",
-        "jsx",
-        "tsx",
-        "snippets",
-        "react",
-        "typescript",
-        "javascript",
-        "biome"
-    ],
-    "devDependencies": {
-        "@types/react": "^19.2.7",
-        "@vscode/vsce": "^3.7.1",
-        "biome": "^0.3.3",
-        "ovsx": "^0.10.7",
-        "react": "^19.2.3",
-        "react-router": "^7.11.0"
-    },
-    "scripts": {
-        "format": "biome format --write",
-        "lint": "biome lint --write",
-        "package": "vsce package -o ./bin/omni.vsix",
-        "vscode:pub": "vsce publish bin/omni.vsix",
-        "cursor:pub": "ovsx publish bin/omni.vsix"
-    }
+	"name": "omniscient",
+	"displayName": "Omniscient",
+	"version": "1.0.1",
+	"publisher": "uaibritto",
+	"description": "A collection of code snippets that make a difference in your day-to-day work.",
+	"author": {
+		"name": "Ricardo 'Manin' Brito"
+	},
+	"icon": "icon.png",
+	"license": "MIT",
+	"maintainers": [
+		"Ricardo 'Manin' Brito <uaibritto@icloud.com>"
+	],
+	"homepage": "https://github.com/uaibritto/omniscient",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/uaibritto/omniscient.git"
+	},
+	"bugs": {
+		"url": "https://github.com/uaibritto/omniscient/issues"
+	},
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "snippets/web/html.json"
+			},
+			{
+				"language": "javascript",
+				"path": "snippets/web/js.json"
+			},
+			{
+				"language": "javascript",
+				"path": "snippets/web/scripts/shared.json"
+			},
+			{
+				"language": "javascript",
+				"path": "snippets/web/scripts/utils.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "snippets/web/jsx.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "snippets/web/scripts/utils.json"
+			},
+			{
+				"language": "typescript",
+				"path": "snippets/web/ts.json"
+			},
+			{
+				"language": "typescript",
+				"path": "snippets/web/scripts/shared.json"
+			},
+			{
+				"language": "typescript",
+				"path": "snippets/web/scripts/utils.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "snippets/web/tsx.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "snippets/web/scripts/utils.json"
+			},
+			{
+				"language": "json",
+				"path": "snippets/json.json"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+1",
+				"mac": "cmd+1",
+				"args": {
+					"name": "React Function Component"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+2",
+				"mac": "cmd+2",
+				"args": {
+					"name": "React Arrow Function Component"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+3",
+				"mac": "cmd+3",
+				"args": {
+					"name": "Server Action Form"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+4",
+				"mac": "cmd+4",
+				"args": {
+					"name": "Form Actions Function"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+5",
+				"mac": "cmd+5",
+				"args": {
+					"name": "React Router Component"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+6",
+				"mac": "cmd+6",
+				"args": {
+					"name": "Tanstack Query Component"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+7",
+				"mac": "cmd+7",
+				"args": {
+					"name": "Server Route Handler"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+8",
+				"mac": "cmd+8",
+				"args": {
+					"name": "Drizzle Kit Config"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+9",
+				"mac": "cmd+9",
+				"args": {
+					"name": "Prisma Config"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+0",
+				"mac": "cmd+0",
+				"args": {
+					"name": "Biome Configuration"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+shift+1",
+				"mac": "cmd+shift+1",
+				"args": {
+					"name": "React Function Component With Properties"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+shift+2",
+				"mac": "cmd+shift+2",
+				"args": {
+					"name": "React Arrow Function Component with Properties"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+;",
+				"mac": "cmd+;",
+				"args": {
+					"name": "Debug Log"
+				}
+			},
+			{
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus",
+				"key": "ctrl+'",
+				"mac": "cmd+'",
+				"args": {
+					"name": "Catch Error"
+				}
+			}
+		]
+	},
+	"keywords": [
+		"eden",
+		"snippets",
+		"biome",
+		"javascript",
+		"typescript",
+		"js",
+		"ts",
+		"jsx",
+		"tsx",
+		"react",
+		"html"
+	],
+	"devDependencies": {
+		"@biomejs/biome": "2.3.10",
+		"@vscode/vsce": "^3.7.1",
+		"ovsx": "^0.10.7"
+	},
+	"scripts": {
+		"format:check": "biome check --write",
+		"package": "vsce package --out ./bin/omni.vsix",
+		"vscode:pub": "vsce publish bin/omni.vsix",
+		"cursor:pub": "ovsx publish bin/omni.vsix"
+	}
 }

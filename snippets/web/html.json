@@ -1,0 +1,45 @@
+{
+	"Base HTML": {
+		"scope": "html",
+		"prefix": "base",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html>",
+			"    <head>",
+			"        <meta charset=\"utf-8\" />",
+			"        <meta name=\"viewport\" content=\"width=device-width\" />",
+			"        <link rel=\"icon\" sizes=\"16x16 32x32 48x48\" type=\"image/${1:png}\" href=\"/public/favicon.${1:png}\" />",
+			"        <link rel=\"stylesheet\" href=\"/src/assets/css/global.css\" />",
+			"        <title>${TM_DIRECTORY/(.*[\\/])?([^\\/]+)$/${2:/capitalize}/}</title>",
+			"    </head>",
+			"    <body>",
+			"        $2",
+			"    </body>",
+			"</html>"
+		],
+		"description": "Creates a basic HTML scaffold.",
+		"isFileTemplate": true
+	},
+	"Scaffold JSX": {
+		"scope": "html",
+		"prefix": "jsx",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html>",
+			"    <head>",
+			"        <meta charset=\"utf-8\" />",
+			"        <meta name=\"viewport\" content=\"width=device-width\" />",
+			"        <link rel=\"icon\" sizes=\"16x16 32x32 48x48\" type=\"image/${1:png}\" href=\"/favicon.${1:png}\" />",
+			"        <link rel=\"stylesheet\" href=\"/src/assets/global.css\" />",
+			"        <script type=\"module\" src=\"/src/main.tsx\" defer></script>",
+			"        <title>${TM_DIRECTORY/(.*[\\/])?([^\\/]+)$/${2:/capitalize}/}</title>",
+			"    </head>",
+			"    <body>",
+			"        <div id=\"root\"></div>",
+			"    </body>",
+			"</html>"
+		],
+		"description": "Creates a basic HTML scaffold with JSX setup.",
+		"isFileTemplate": true
+	}
+}

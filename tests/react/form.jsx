@@ -1,8 +1,8 @@
-import { useActionState } from "react"
-import { action } from "~/actions"
+import { useActionState } from "react";
+import { action } from "@/actions";
 
 export default function Form() {
-	const [state, formAction, isPending] = useActionState(action, null)
+	const [_, formAction, isPending] = useActionState(action, null);
 
 	return (
 		<form action={formAction}>
@@ -10,5 +10,5 @@ export default function Form() {
 				{isPending ? "Loading..." : "Submit"}
 			</button>
 		</form>
-	)
+	);
 }

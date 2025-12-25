@@ -1,0 +1,15 @@
+{
+    "Form Actions Function": {
+        "scope": "typescript",
+        "prefix": "faf",
+        "body": [
+            "\"use server\"",
+            "",
+            "export async function ${1:${TM_FILENAME_BASE}}(_: unknown, form: FormData) {",
+            "    ${2:// TODO: Implement server action logic here}",
+            "}"
+        ],
+        "description": "Creates a server-side form actions function.",
+        "isFileTemplate": false
+    }
+}

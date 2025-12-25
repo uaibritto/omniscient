@@ -1,0 +1,16 @@
+{
+	"Debug Log": {
+		"scope": "javascript,typescript,typescriptreact,javascriptreact",
+		"prefix": "clog",
+		"body": "console.log($TM_SELECTED_TEXT)",
+		"description": "Logs selected text to the console.",
+		"isFileTemplate": false
+	},
+	"Catch Error": {
+		"scope": "javascript,typescript,typescriptreact,javascriptreact",
+		"prefix": "cerr",
+		"body": "console.error($TM_SELECTED_TEXT)",
+		"description": "Logs selected text as an error to the console.",
+		"isFileTemplate": false
+	}
+}
